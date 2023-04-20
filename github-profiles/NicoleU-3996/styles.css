@@ -7,6 +7,11 @@ head{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+.contenedor {
+    width: min(90%, 1200px);
+    margin: 0 auto;
+}
+
 body{
     max-width: 800px;
     font-size: 14px;
@@ -28,4 +33,10 @@ h2 {
 h3 {
     color: purple;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+th {
+    padding: 10px 45px;
+}
+table, th, td{
+    border: 1px double rgb(35, 12, 58);
 }
